@@ -1,0 +1,27 @@
+Tytu³ programu: Wirtualny Œwiat
+
+Opis programu: Gra turowa, ze zwierzêtami, roœlinami i cz³owiekiem. Ka¿dy organizm posiada inicjatywê, od której zale¿y, kiedy bêdzie móg³ wykonaæ ruch. Ruch jest wykonywany na s¹siednie, losowe pole. Pierwszeñstwo maj¹ organizmy z najwy¿sz¹ inicjatyw¹. Ka¿dy posiada tak¿e jak¹œ si³ê, od której zale¿y wynik walki podczas kolizji. Niektóre organizmy posiadaj¹ specjalne cechy. Podczas kolizji tych samych zwierz¹t, dochodzi do rozmno¿enia, w przeciwnym wypadku dochodzi do walki. Ka¿da roœlina jest nieruchoma oraz podejmuje próbê rozprzestrzenienia siê podczas wykonywania tury. 
+
+Specyfikacje organizmów: 
+
+Owca - Si³a: 4 Inicjatywa: 4 
+Brak specjalnych umiejêtnoœci.
+
+Wilk - Si³a: 9 Inicjatywa: 5
+Brak specjalnych umiejêtnoœci.
+
+¯ó³w - Si³a: 2 Inicjatywa: 1 
+Istnieje 75% szansy, ¿e ¿ó³w nie wykona ruchu. Odpiera ataki zwierz¹t o sile <5, lecz napastnik nie ginie.
+
+Trawa - Si³a: 0 Inicjatywa: 0
+Brak specjalnych umiejêtnoœci.
+
+Mlecz - Si³a: 0  Inicjatywa: 0
+Podejmuje 3 próby rozmno¿enia siê podczas jednej tury.
+
+Wilcze Jagody - Si³a: 99 Inicjatywa: 0  
+Zabijaj¹ ka¿dy organizm, który na nie wejdzie. 
+
+Cz³owiek - Si³a: 5 Inicjatywa: 4 
+Sterowany przez gracza. Posiada specjaln¹ umiejêtnoœæ, która spala otaczaj¹ce go organizmy. Czas trwania:
+5 rund. Czas ³adowania: 5 rund.
